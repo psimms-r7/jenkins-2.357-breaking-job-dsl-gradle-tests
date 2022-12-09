@@ -1,0 +1,41 @@
+implementation: [
+]
+
+testImplementation: [
+  'org.jenkins-ci.plugins:branch-api:2.1046.v0ca_37783ecc5@jar',
+  'org.jenkins-ci.plugins:scm-api:621.vda_a_b_055e58f7@jar',
+]
+
+testPlugins: [
+  'io.jenkins.plugins:remote-file:1.23',
+  'org.jenkins-ci.plugins.workflow:workflow-aggregator:590.v6a_d052e5a_a_b_5',
+  'org.jenkins-ci.plugins.workflow:workflow-api:1192.v2d0deb_19d212',
+  'org.jenkins-ci.plugins.workflow:workflow-basic-steps:991.v43d80fea_ff66',
+  'org.jenkins-ci.plugins.workflow:workflow-cps:2759.v87459c4eea_ca_',
+  'org.jenkins-ci.plugins.workflow:workflow-durable-task-step:1199.v02b_9244f8064',
+  'org.jenkins-ci.plugins.workflow:workflow-job:1207.ve6191ff089f8',
+  'org.jenkins-ci.plugins.workflow:workflow-multibranch:716.vc692a_e52371b_',
+  'org.jenkins-ci.plugins.workflow:workflow-scm-step:400.v6b_89a_1317c9a_',
+  'org.jenkins-ci.plugins.workflow:workflow-step-api:639.v6eca_cd8c04a_a_',
+  'org.jenkins-ci.plugins.workflow:workflow-support:838.va_3a_087b_4055b',
+  'org.jenkins-ci.plugins:cloudbees-folder:6.740.ve4f4ffa_dea_54',
+  'org.jenkins-ci.plugins:git-client:3.11.2',
+  'org.jenkins-ci.plugins:git:4.11.4',
+  'org.jenkins-ci.plugins:github-api:1.303-400.v35c2d8258028',
+  'org.jenkins-ci.plugins:github-branch-source:1677.v731f745ea_0cf',
+  'org.jenkins-ci.plugins:groovy:442.v817e6d937d6c',
+  'org.jenkins-ci.plugins:matrix-auth:3.1.5',
+  'org.jenkins-ci.plugins:matrix-project:772.v494f19991984',
+  'org.jenkins-ci.plugins:token-macro:308.v4f2b_ed62b_b_16',
+  'org.jvnet.hudson.plugins:favorite:2.4.1',
+  'org.jenkins-ci.main:maven-plugin:3.20',
+  'org.jenkins-ci.plugins:ghprb:1.42.2',
+  'org.jenkins-ci.plugins:basic-branch-build-strategies:71.vc1421f89888e',
+  'org.jenkins-ci.plugins:conditional-buildstep:1.4.2',
+  'org.jenkins-ci.plugins:parameterized-trigger:2.45',
+  'org.jenkins-ci.plugins:git:4.14.2',
+  'org.jenkins-ci.plugins:jenkins-multijob-plugin:623.v03401733c9a_9',
+  'org.jenkins-ci.plugins:github-pr-comment-build:86.v23ae6d00ab99',
+  'io.jenkins.plugins:pipeline-groovy-lib:621.vb_44ce045b_582',
+  'org.jenkins-ci.plugins:token-macro:321.vd7cc1f2a_52c8'
+]
